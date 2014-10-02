@@ -1,0 +1,74 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-flow: row;
+}
+
+body &gt ; section {
+	flex: 1 100%;
+	display: flex;
+	flex-flow: column;
+}
+
+header {
+	background: #7ABCE3;
+	flex: 0 50px;
+}
+
+nav {
+	background: #7AD5E3;
+	flex: 0 20px;
+}
+
+body &gt ; section &gt ; section {
+	flex: 1;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+section.content {
+	flex: 1 300px;
+	text-overflow: ellipsis;
+	background: white;
+}
+
+aside {
+	background: #7DA1CB;
+	flex: 0 200px;
+}
+.magasins table{
+	width:100%;
+}
+
+.magasins caption{
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.magasins table, .magasins tr, .magasins td {
+	border: 1px solid black;
+}
+
+.magasins table tr:nth-child(2n) {
+	background-color: blue;
+}
+
+.magasins table tr:first-child{
+	background-color: maroon;
+}
+
+ol{
+	list-style-image: url("../images/arrow455.png");
+}
+
+footer {
+	background: white;
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
