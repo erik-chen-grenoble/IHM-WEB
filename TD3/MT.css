@@ -1,0 +1,13 @@
+.doigt {
+	position : absolute;
+	width	 : 32px;
+	height	 : 32px;
+	border-radius : 16px;
+	background : yellow;
+	border : solid black 1px;
+}
+
+html, body {
+	margin : 0px;
+	padding : 0px;
+}
